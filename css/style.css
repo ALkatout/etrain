@@ -1,0 +1,113 @@
+body{
+    font-family: 'Tajawal', sans-serif!important;
+    /*direction: rtl!important;*/
+
+}
+
+/*start of header-section*/
+
+.container{
+    margin-top: 4rem;
+}
+.header-section .container .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:3rem;
+}
+
+.header-section .container .nav-bar .reg-btn{
+    border: none;
+    border: gainsboro;
+    font-family: Andalus;
+    font-size: 18px;
+    border-radius: 8px;
+    color: blue;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.header-section .welcome{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-welcome{
+    width: 37rem;
+}
+
+.header-section .welcome .discription {
+    text-align: right;
+    margin-top: 4rem;
+    margin-right: 5.5rem;
+}
+.div-h{
+    direction: rtl;
+    }
+.header-section .welcome .discription .h1 {
+    font-size: 70px;
+}
+.welcome .p{
+    margin-top: 2rem;
+    color: lightgray;
+    font-size: 30px;
+}
+.welcome-btn{
+    font-size: 20px;
+    padding: 1rem 5rem 1rem 5rem;
+    border: none;
+    color: white;
+    background: blue;
+}
+/*end of header-section*/
+
+/*start of body-section*/
+.body-section{
+    margin-top: 8rem;
+    text-align: center;
+}
+.body-section .secton-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #12141f;
+    line-height: 1.29;
+}
+.body-section .secton-title span{
+    color: blue;
+}
+.body-section .body-dicription{
+    color: #7C7D8D;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+}
+.body-section .cards{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.body-section .feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.feature-card .card-title{
+    font-size: 24px;
+    font-family: cursive;
+}
+.feature-card .card-line{
+    width: 132px;
+    height: 3px;
+    background: #264eee;
+    margin-top: 8px;
+}
+.feature-card .card-text{
+    margin-top: 16px;
+}
+/*end of body-section*/
+
